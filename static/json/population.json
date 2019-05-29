@@ -1,0 +1,237 @@
+{
+  "list": [{
+      "name": "北海道",
+      "population": 5506,
+      "code": 1
+    },
+    {
+      "name": "青森県",
+      "population": 1373,
+      "code": 2
+    },
+    {
+      "name": "岩手県",
+      "population": 1330,
+      "code": 3
+    },
+    {
+      "name": "宮城県",
+      "population": 2348,
+      "code": 4
+    },
+    {
+      "name": "秋田県",
+      "population": 1086,
+      "code": 5
+    },
+    {
+      "name": "山形県",
+      "population": 1169,
+      "code": 6
+    },
+    {
+      "name": "福島県",
+      "population": 2029,
+      "code": 7
+    },
+    {
+      "name": "茨城県",
+      "population": 2970,
+      "code": 8
+    },
+    {
+      "name": "栃木県",
+      "population": 2008,
+      "code": 9
+    },
+    {
+      "name": "群馬県",
+      "population": 2008,
+      "code": 10
+    },
+    {
+      "name": "埼玉県",
+      "population": 7195,
+      "code": 11
+    },
+    {
+      "name": "千葉県",
+      "population": 6216,
+      "code": 12
+    },
+    {
+      "name": "東京都",
+      "population": 13159,
+      "code": 13
+    },
+    {
+      "name": "神奈川県",
+      "population": 9048,
+      "code": 14
+    },
+    {
+      "name": "新潟県",
+      "population": 2374,
+      "code": 15
+    },
+    {
+      "name": "富山県",
+      "population": 1093,
+      "code": 16
+    },
+    {
+      "name": "石川県",
+      "population": 1170,
+      "code": 17
+    },
+    {
+      "name": "福井県",
+      "population": 806,
+      "code": 18
+    },
+    {
+      "name": "山梨県",
+      "population": 863,
+      "code": 19
+    },
+    {
+      "name": "長野県",
+      "population": 2152,
+      "code": 20
+    },
+    {
+      "name": "岐阜県",
+      "population": 2081,
+      "code": 21
+    },
+    {
+      "name": "静岡県",
+      "population": 3765,
+      "code": 22
+    },
+    {
+      "name": "愛知県",
+      "population": 7411,
+      "code": 23
+    },
+    {
+      "name": "三重県",
+      "population": 1855,
+      "code": 24
+    },
+    {
+      "name": "滋賀県",
+      "population": 1411,
+      "code": 25
+    },
+    {
+      "name": "京都府",
+      "population": 2636,
+      "code": 26
+    },
+    {
+      "name": "大阪府",
+      "population": 8865,
+      "code": 27
+    },
+    {
+      "name": "兵庫県",
+      "population": 5588,
+      "code": 28
+    },
+    {
+      "name": "奈良県",
+      "population": 1401,
+      "code": 29
+    },
+    {
+      "name": "和歌山県",
+      "population": 1002,
+      "code": 30
+    }, {
+      "name": "鳥取県",
+      "population": 589,
+      "code": 31
+    },
+    {
+      "name": "島根県",
+      "population": 717,
+      "code": 32
+    },
+    {
+      "name": "岡山県",
+      "population": 1945,
+      "code": 33
+    },
+    {
+      "name": "広島県",
+      "population": 2861,
+      "code": 34
+    },
+    {
+      "name": "山口県",
+      "population": 1451,
+      "code": 35
+    },
+    {
+      "name": "徳島県",
+      "population": 785,
+      "code": 36
+    },
+    {
+      "name": "香川県",
+      "population": 996,
+      "code": 37
+    },
+    {
+      "name": "愛媛県",
+      "population": 1431,
+      "code": 38
+    },
+    {
+      "name": "高知県",
+      "population": 764,
+      "code": 39
+    },
+    {
+      "name": "福岡",
+      "population": 5072,
+      "code": 40
+    },
+    {
+      "name": "佐賀県",
+      "population": 850,
+      "code": 41
+    },
+    {
+      "name": "長崎県",
+      "population": 1427,
+      "code": 42
+    },
+    {
+      "name": "熊本県",
+      "population": 1817,
+      "code": 43
+    },
+    {
+      "name": "大分県",
+      "population": 1197,
+      "code": 44
+    },
+    {
+      "name": "宮崎県",
+      "population": 1135,
+      "code": 45
+    },
+    {
+      "name": "鹿児島県",
+      "population": 1706,
+      "code": 46
+    },
+    {
+      "name": "沖縄県",
+      "population": 1393,
+      "code": 47
+    }
+  ]
+}
