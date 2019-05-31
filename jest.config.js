@@ -1,6 +1,6 @@
 module.exports = {
   moduleDirectories: ['node_modules', 'src'],
-  setupFiles: ['./test/jestSetup.ts', 'jest-localstorage-mock'],
+  setupFiles: ['./test/setupJest.ts', 'jest-localstorage-mock'],
   transform: {
     '^.+\\.(ts|tsx)$': '<rootDir>/node_modules/ts-jest',
   },
