@@ -1,4 +1,6 @@
 import * as React from 'react';
+import shuffle from '../utils/shuffle';
+import getPowOfArray from '../utils/getPowOfArray';
 
 interface CoordinatesData {
   code: number;
@@ -27,7 +29,7 @@ export default function useJpInfo() {
 
   React.useEffect(() => {
     mergeInfoData().then(value => {
-      const populationsOfDummy = shuffle(getArrayOfRandomNumber(1.15, value.length));
+      const populationsOfDummy = shuffle(getPowOfArray(1.15, value.length));
       setData(
         value.map((v, i) => ({
           ...v,
@@ -62,16 +64,3 @@ export default function useJpInfo() {
 
   return {data, update};
 }
-
-const getArrayOfRandomNumber = (base: number, length: number): number[] =>
-  Array.from({length}, (_, i) => base ** i);
-
-const shuffle = (array: number[]): number[] => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const r = Math.floor(Math.random() * (i + 1));
-    const tmp = array[i];
-    array[i] = array[r];
-    array[r] = tmp;
-  }
-  return array;
-};
