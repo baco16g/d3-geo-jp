@@ -78,6 +78,7 @@ const JpMap = () => {
             return p ? (
               <Marker
                 key={`marker-${i}`}
+                data-testid={`marker-${i}`}
                 cx={p[0]}
                 cy={p[1]}
                 fill={determineFillByScale(percentByPopulation)}
@@ -92,33 +93,34 @@ const JpMap = () => {
         <Card>
           <CardInner>
             <h3>Selected region</h3>
-            <p>name: {selectedCity ? selectedCity.name : '------------------------'}</p>
-            <p>
-              number:{' '}
-              {selectedCity ? Math.round(selectedCity.population) : '------------------------'}
-            </p>
+            <p>name: {selectedCity ? selectedCity.name : '-'.repeat(24)}</p>
+            <p>number: {selectedCity ? Math.round(selectedCity.population) : '-'.repeat(24)}</p>
           </CardInner>
         </Card>
+        <Button
+          label="Update a Data!"
+          onPress={() => {
+            setSelectedCity(null);
+            update();
+          }}
+        />
       </CardWrapper>
-      <Button
-        label="Update a Data!"
-        onPress={() => {
-          setSelectedCity(null);
-          update();
-        }}
-      />
     </MapSvgWrapper>
   );
 };
 
 const MapSvgWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  > * {
+    &:nth-child(2) {
+      margin-left: -24px;
+    }
+  }
 `;
 
 const scale = (purpose: number) => keyframes`
@@ -139,6 +141,13 @@ const Marker = styled.circle<{
 
 const CardWrapper = styled.div`
   margin: -24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  > * {
+    &:nth-child(2) {
+      margin-top: 24px;
+    }
+  }
 `;
 
 const CardInner = styled.div`
