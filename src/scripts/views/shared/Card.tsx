@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import styled from 'styled-components';
 
 interface IProps {
@@ -12,7 +12,7 @@ const Card = (props: IProps) => {
 const StyledCard = styled.div`
   display: inline-block;
   background: #fff;
-  padding: 18px;
+  padding: 36px;
   box-sizing: border-box;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;

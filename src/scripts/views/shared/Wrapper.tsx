@@ -5,9 +5,9 @@ import {ColorMode} from '../../types/AppTypes';
 import * as Storage from '../../utils/storage';
 import {AppContext, IAppContext} from '../../providers/AppProvider';
 
-import Button from '../atoms/Button';
+import Button from '../shared/Button';
 
-const STORAGE_KEY = `${window.location.hostname}-app-provider`;
+export const STORAGE_KEY = `${window.location.hostname}-app-provider`;
 
 const Wrapper = (props: {children: JSX.Element}) => {
   // Initialize

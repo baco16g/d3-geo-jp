@@ -4,8 +4,8 @@ import {geoMercator, geoPath} from 'd3-geo';
 import {feature} from 'topojson-client';
 
 import useJpInfo, {InfoData} from '../../hooks/useJpInfo';
-import Button from '../atoms/Button';
-import Card from '../organisms/Card';
+import Button from '../shared/Button';
+import Card from '../shared/Card';
 
 const JP_POS = [46, 150, 24, 120];
 

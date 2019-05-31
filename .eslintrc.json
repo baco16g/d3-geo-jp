@@ -1,7 +1,13 @@
 {
   "plugins": [
-    "react"
+    "react",
+    "jest"
   ],
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
   "extends": [
     "teppeis/es2019",
     "teppeis/+typescript",
@@ -10,6 +16,7 @@
   ],
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest": true
   }
 }
